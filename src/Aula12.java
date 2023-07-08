@@ -9,7 +9,7 @@ public class Aula12 {
         char[] sexos = new char[5];
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("Cadastro da pessoa " + (i+1));
+            System.out.println("Cadastro da pessoa " + (i + 1));
 
             System.out.print("Nome: ");
             nomes[i] = scanner.nextLine();
@@ -28,6 +28,9 @@ public class Aula12 {
         System.out.println("Lista de usuarios:");
 
         for (int i = 0; i < 5; i++) {
-            System.out.println("Pessoa " + (i+1) + ":");
+            System.out.println("Pessoa " + (i + 1) + ":");
             System.out.println("Nome: " + nomes[i]);
             System.out.println("Idade: " + idades[i]);
+        }
+    }
+}
